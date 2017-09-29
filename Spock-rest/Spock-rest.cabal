@@ -20,6 +20,7 @@ library
                      , aeson
                      , Spock
                      , text
+                     , text-conversions
   default-language:    Haskell2010
 
 executable Spock-rest-exe
@@ -31,6 +32,7 @@ executable Spock-rest-exe
                      , aeson
                      , Spock
                      , text
+                     , text-conversions
   default-language:    Haskell2010
 
 test-suite Spock-rest-test
@@ -42,6 +44,7 @@ test-suite Spock-rest-test
                      , aeson
                      , Spock
                      , text
+                     , text-conversions
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   default-language:    Haskell2010
 
